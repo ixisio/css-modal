@@ -1,6 +1,27 @@
 # Changelog
 
 ## HEAD
+* Hide the close element to prevent overlay of other elements in IE
+* Remove close handler to unset window
+* Include a build of the spinner CSS
+* Include a modal--fade by default to the output
+* Bugfix: Use jQuery to subscribe to events to prevent errors with trigger
+* Update word break property of modal content
+* Fix bug on IE11 with close button and overlay of modal
+* Add possiblility to add iframes within modal nicely
+* Fix height of gallery if caption and footer are present
+* Make left and right navigation buttons in gallery smaller
+* Prevent scrolling of body when modal is open
+* Set inital scale to 1 in visual tests
+* Use correct error message in on-method, add webkit scroll momentum
+* Fix styling of visual test and center content
+* Fix issues with close button on iOS
+* Use !default variables so that they can be easily overridden
+* Add possibility to call modal without hashchange
+* Update jQuery to v1.11.1
+* Update node modules to latest version
+* Remove test CSS build from source control
+* Add new builds for all CSS files
 * Rename plugins to be more consistend and generate builds for each
 * Gallery: Add possibility to use iframes in slides
 * Add possibility to make modals non-stackable

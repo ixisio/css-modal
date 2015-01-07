@@ -211,6 +211,11 @@ html {
 		&:target,
 		&.is-active {
 			height: 100%;
+
+			// For IE we need to hide the close element to prevent overlay of other elements
+			.modal-close {
+				display: block;
+			}
 		}
 
 
@@ -250,6 +255,7 @@ html {
 
 
 		.modal-close {
+			display: none;
 			right: auto;
 
 			&:before {
